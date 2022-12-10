@@ -9,6 +9,14 @@ p {
     color: black;
 }
 
+input {
+    outline: none;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px #cdcdd1;
+}
+
 main {
     width: 100%;
     height: 450px;
@@ -18,7 +26,5 @@ main {
 main .namesSection {
     margin-left: 20px;
     width: 100%;
-    display: flex;
-    justify-content: start;
-    gap: 30px;
+    display: grid;
 }
