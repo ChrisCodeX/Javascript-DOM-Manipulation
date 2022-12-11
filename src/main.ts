@@ -19,6 +19,11 @@ if (container != null) {
 const texto = document.createTextNode('Texto agregado')
 
 // Here we add the text node in container node
+if (h3 != null) {
+    h3.appendChild(texto)
+}
+
+/* append */
 if (container != null) {
-    container.appendChild(texto)
+    container.append('texto 2', document.createElement('div'))
 }
