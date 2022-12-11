@@ -14,9 +14,10 @@ if (container != null) {
 }
 
 /* createTextNode */
-//
+// Here we create a text node
 const texto = document.createTextNode('Texto agregado')
 
+// Here we add the text node in container node
 if (container != null) {
     container.appendChild(texto)
 }
