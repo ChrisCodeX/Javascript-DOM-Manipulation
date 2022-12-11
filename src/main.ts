@@ -24,6 +24,10 @@ if (h3 != null) {
 }
 
 /* append */
+// Nos permite agregar varios elementos a la vez
+// En este caso agregamos un texto y un div
 if (container != null) {
     container.append('texto 2', document.createElement('div'))
 }
+
+/*  */
