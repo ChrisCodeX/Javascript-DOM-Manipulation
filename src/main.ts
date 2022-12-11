@@ -30,4 +30,13 @@ if (container != null) {
     container.append('texto 2', document.createElement('div'))
 }
 
-/*  */
+/* insertBefore */
+// Inserta un elementos justo antes de un elemento de referencia que es un hijo directo del 
+// padre
+const titulo = document.createElement('h1')
+
+const referencia = document.querySelector('.namesSection h3')
+
+if (container != null) {
+    container.insertBefore(titulo, referencia)
+}
