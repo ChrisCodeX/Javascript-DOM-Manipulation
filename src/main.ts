@@ -1,6 +1,7 @@
 console.log('Test 125')
 
 /* appendChild */
+// Siempre añade el nodo al final
 
 // Here we save the container using query selector
 const container = document.querySelector('section.namesSection')
