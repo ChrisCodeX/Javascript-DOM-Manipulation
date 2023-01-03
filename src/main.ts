@@ -46,4 +46,9 @@ const referencia2 = document.querySelector('.adressContainer');
 
 const nodo = document.createElement('span')
 
-referencia2?.insertAdjacentElement('beforebegin', nodo)
+/* beforebegin lo inserta antes del elemento de referencia
+afterbegin lo inserta justo después del elemento de referencia (1ra linea)
+beforeend lo inserta justo al final del elemento de referencia
+afterend lo inserta justo cuando finaliza la referencia
+*/
+referencia2?.insertAdjacentElement('beforeend', nodo)
